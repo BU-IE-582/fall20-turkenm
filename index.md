@@ -13,3 +13,8 @@
 
  [HW2](files/HW2.html)  
  [Code for HW2](files/HW2.ipynb)
+
+## Homework 3
+
+ [HW3](files/HW3.html)  
+ 
