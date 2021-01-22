@@ -17,5 +17,5 @@
 ## Homework 3
 
  [HW3](files/HW3.html)  
- [Code for HW2](files/HW3.ipynb)  
+ [Code for HW3](files/HW3.ipynb)  
  
