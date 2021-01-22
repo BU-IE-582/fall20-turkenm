@@ -13076,7 +13076,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
@@ -13202,7 +13202,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Preparation for data</span>
@@ -13220,7 +13220,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">df_16</span><span class="p">,</span> <span class="n">df_17</span><span class="p">,</span> <span class="n">df_18</span><span class="p">,</span> <span class="n">df_19</span><span class="p">,</span> <span class="n">df_20</span><span class="p">]</span>
@@ -13233,7 +13233,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span> 
@@ -13249,7 +13249,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_16</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13265,7 +13265,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13337,7 +13337,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Tarih&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Tarih&quot;</span><span class="p">],</span> <span class="n">dayfirst</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
@@ -13350,7 +13350,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Creating lag values</span>
@@ -13365,7 +13365,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Creating test data</span>
@@ -13379,7 +13379,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">mape</span><span class="p">(</span><span class="n">y_act</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">):</span>
@@ -13393,7 +13393,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Because of the zero division error, I should check tha data</span>
@@ -13410,7 +13410,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[18]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -13462,7 +13462,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">index</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2066</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
@@ -13475,7 +13475,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mape</span><span class="p">(</span><span class="n">test_df</span><span class="p">[</span><span class="s2">&quot;mwh&quot;</span><span class="p">],</span> <span class="n">test_df</span><span class="p">[</span><span class="s2">&quot;lag_48&quot;</span><span class="p">])</span>
@@ -13491,7 +13491,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[16]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -13508,7 +13508,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mape</span><span class="p">(</span><span class="n">test_df</span><span class="p">[</span><span class="s2">&quot;mwh&quot;</span><span class="p">],</span> <span class="n">test_df</span><span class="p">[</span><span class="s2">&quot;lag_168&quot;</span><span class="p">])</span>
@@ -13524,7 +13524,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[17]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -13541,10 +13541,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;index&quot;</span><span class="p">],</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span> <span class="n">drop</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13569,7 +13569,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LinearRegression</span>
@@ -13582,7 +13582,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## I want to use hour values as a variable for linear regression so I convert the hour data as a number.</span>
@@ -13599,7 +13599,20 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[40]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Saat&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Saat&quot;</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13615,7 +13628,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[40]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -13649,7 +13662,7 @@ div#notebook {
     <tr>
       <th>0</th>
       <td>2016-01-01</td>
-      <td>00</td>
+      <td>0</td>
       <td>26277.24</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -13657,7 +13670,7 @@ div#notebook {
     <tr>
       <th>1</th>
       <td>2016-01-01</td>
-      <td>01</td>
+      <td>1</td>
       <td>24991.82</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -13665,7 +13678,7 @@ div#notebook {
     <tr>
       <th>2</th>
       <td>2016-01-01</td>
-      <td>02</td>
+      <td>2</td>
       <td>23532.61</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -13673,7 +13686,7 @@ div#notebook {
     <tr>
       <th>3</th>
       <td>2016-01-01</td>
-      <td>03</td>
+      <td>3</td>
       <td>22464.78</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -13681,7 +13694,7 @@ div#notebook {
     <tr>
       <th>4</th>
       <td>2016-01-01</td>
-      <td>04</td>
+      <td>4</td>
       <td>22002.91</td>
       <td>NaN</td>
       <td>NaN</td>
@@ -13699,156 +13712,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_df</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[44]:</div>
-
-
-
-<div class="output_html rendered_html output_subarea output_execute_result">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Tarih</th>
-      <th>Saat</th>
-      <th>mwh</th>
-      <th>lag_48</th>
-      <th>lag_168</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>168</th>
-      <td>2016-01-08</td>
-      <td>00</td>
-      <td>28602.02</td>
-      <td>29189.27</td>
-      <td>26277.24</td>
-    </tr>
-    <tr>
-      <th>169</th>
-      <td>2016-01-08</td>
-      <td>01</td>
-      <td>27112.37</td>
-      <td>27614.02</td>
-      <td>24991.82</td>
-    </tr>
-    <tr>
-      <th>170</th>
-      <td>2016-01-08</td>
-      <td>02</td>
-      <td>25975.34</td>
-      <td>26578.97</td>
-      <td>23532.61</td>
-    </tr>
-    <tr>
-      <th>171</th>
-      <td>2016-01-08</td>
-      <td>03</td>
-      <td>25315.55</td>
-      <td>25719.19</td>
-      <td>22464.78</td>
-    </tr>
-    <tr>
-      <th>172</th>
-      <td>2016-01-08</td>
-      <td>04</td>
-      <td>25128.15</td>
-      <td>25864.63</td>
-      <td>22002.91</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>42378</th>
-      <td>2020-10-31</td>
-      <td>19</td>
-      <td>35265.95</td>
-      <td>34767.13</td>
-      <td>36009.65</td>
-    </tr>
-    <tr>
-      <th>42379</th>
-      <td>2020-10-31</td>
-      <td>20</td>
-      <td>34178.92</td>
-      <td>33868.97</td>
-      <td>35062.32</td>
-    </tr>
-    <tr>
-      <th>42380</th>
-      <td>2020-10-31</td>
-      <td>21</td>
-      <td>33240.21</td>
-      <td>32670.05</td>
-      <td>33936.24</td>
-    </tr>
-    <tr>
-      <th>42381</th>
-      <td>2020-10-31</td>
-      <td>22</td>
-      <td>32159.28</td>
-      <td>31874.30</td>
-      <td>32906.62</td>
-    </tr>
-    <tr>
-      <th>42382</th>
-      <td>2020-10-31</td>
-      <td>23</td>
-      <td>30325.43</td>
-      <td>30491.26</td>
-      <td>31457.66</td>
-    </tr>
-  </tbody>
-</table>
-<p>42215 rows × 5 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">train_df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
@@ -13862,7 +13726,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x_train</span> <span class="o">=</span> <span class="n">train_df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s2">&quot;mwh&quot;</span><span class="p">,</span><span class="s2">&quot;Tarih&quot;</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
@@ -13876,7 +13740,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[51]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y_test</span> <span class="o">=</span> <span class="n">test_df</span><span class="p">[</span><span class="s2">&quot;mwh&quot;</span><span class="p">]</span>
@@ -13890,7 +13754,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
@@ -13903,7 +13767,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
@@ -13917,7 +13781,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mape</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
@@ -13933,7 +13797,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[54]:</div>
+    <div class="prompt output_prompt">Out[36]:</div>
 
 
 
@@ -13977,10 +13841,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[37]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">lin_reg</span> <span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">):</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
     <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
     <span class="n">yy_pred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x_test</span><span class="p">)</span>
     <span class="n">mape_res</span> <span class="o">=</span> <span class="n">mape</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">yy_pred</span><span class="p">)</span>
@@ -13995,7 +13860,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[38]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mapes</span> <span class="o">=</span> <span class="p">[]</span>
@@ -14135,7 +14000,7 @@ Coefficients : 23 [0.45108169 0.4720343 ]
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="prompt input_prompt">In&nbsp;[39]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">mapes</span><span class="p">)):</span>
@@ -14190,7 +14055,7 @@ Hour 23 = 3.356
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="prompt input_prompt">In&nbsp;[40]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">statistics</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">mapes</span><span class="p">)</span>
@@ -14206,7 +14071,7 @@ Hour 23 = 3.356
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[68]:</div>
+    <div class="prompt output_prompt">Out[40]:</div>
 
 
 
@@ -14223,7 +14088,7 @@ Hour 23 = 3.356
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[70]:</div>
+<div class="prompt input_prompt">In&nbsp;[41]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 00:00 - 07:00 average mape value</span>
@@ -14240,7 +14105,7 @@ Hour 23 = 3.356
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[70]:</div>
+    <div class="prompt output_prompt">Out[41]:</div>
 
 
 
@@ -14257,7 +14122,7 @@ Hour 23 = 3.356
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[72]:</div>
+<div class="prompt input_prompt">In&nbsp;[42]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 08:00 - 17:00 average mape value</span>
@@ -14274,7 +14139,7 @@ Hour 23 = 3.356
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[72]:</div>
+    <div class="prompt output_prompt">Out[42]:</div>
 
 
 
@@ -14291,7 +14156,7 @@ Hour 23 = 3.356
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[74]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 17:00 - 24:00 average mape value</span>
@@ -14308,7 +14173,7 @@ Hour 23 = 3.356
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[74]:</div>
+    <div class="prompt output_prompt">Out[43]:</div>
 
 
 
@@ -14343,6 +14208,1055 @@ Hour 23 = 3.356
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Hourly prediction looks successful between 00:00 - 07:00 and 17:00 - 24:00 hours, but avarege mape value for all day is slightly worse than part b model and it still get behind the lag_168 regressor.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Task-D">Task D<a class="anchor-link" href="#Task-D">&#182;</a></h2>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[60]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df2</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[64]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">wide_df</span> <span class="o">=</span> <span class="n">df2</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="s1">&#39;Tarih&#39;</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="s1">&#39;Saat&#39;</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;lag_48&quot;</span><span class="p">,</span><span class="s2">&quot;lag_168&quot;</span><span class="p">,</span><span class="s2">&quot;mwh&quot;</span><span class="p">])</span>
+<span class="n">wide_df</span><span class="o">.</span><span class="n">dropna</span><span class="p">(</span><span class="n">axis</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">how</span> <span class="o">=</span> <span class="s2">&quot;any&quot;</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[66]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">wide_df</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[66]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead tr th {
+        text-align: left;
+    }
+
+    .dataframe thead tr:last-of-type th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="24" halign="left">lag_168</th>
+      <th colspan="24" halign="left">lag_48</th>
+      <th colspan="24" halign="left">mwh</th>
+    </tr>
+    <tr>
+      <th>Saat</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>10</th>
+      <th>11</th>
+      <th>12</th>
+      <th>13</th>
+      <th>14</th>
+      <th>15</th>
+      <th>16</th>
+      <th>17</th>
+      <th>18</th>
+      <th>19</th>
+      <th>20</th>
+      <th>21</th>
+      <th>22</th>
+      <th>23</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>10</th>
+      <th>11</th>
+      <th>12</th>
+      <th>13</th>
+      <th>14</th>
+      <th>15</th>
+      <th>16</th>
+      <th>17</th>
+      <th>18</th>
+      <th>19</th>
+      <th>20</th>
+      <th>21</th>
+      <th>22</th>
+      <th>23</th>
+      <th>0</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6</th>
+      <th>7</th>
+      <th>8</th>
+      <th>9</th>
+      <th>10</th>
+      <th>11</th>
+      <th>12</th>
+      <th>13</th>
+      <th>14</th>
+      <th>15</th>
+      <th>16</th>
+      <th>17</th>
+      <th>18</th>
+      <th>19</th>
+      <th>20</th>
+      <th>21</th>
+      <th>22</th>
+      <th>23</th>
+    </tr>
+    <tr>
+      <th>Tarih</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2020-11-26</th>
+      <td>33455.97</td>
+      <td>31805.17</td>
+      <td>30698.22</td>
+      <td>29846.76</td>
+      <td>29600.96</td>
+      <td>29899.31</td>
+      <td>30743.88</td>
+      <td>32074.70</td>
+      <td>35610.62</td>
+      <td>37711.29</td>
+      <td>38233.15</td>
+      <td>38704.74</td>
+      <td>37415.32</td>
+      <td>38196.98</td>
+      <td>39412.98</td>
+      <td>39853.82</td>
+      <td>40918.91</td>
+      <td>42208.11</td>
+      <td>41673.45</td>
+      <td>40553.66</td>
+      <td>39499.32</td>
+      <td>38429.24</td>
+      <td>37270.44</td>
+      <td>35731.83</td>
+      <td>33520.81</td>
+      <td>31518.27</td>
+      <td>30513.78</td>
+      <td>29844.10</td>
+      <td>29650.85</td>
+      <td>29873.42</td>
+      <td>30934.51</td>
+      <td>32239.30</td>
+      <td>35946.87</td>
+      <td>37504.70</td>
+      <td>37515.08</td>
+      <td>37261.41</td>
+      <td>35845.55</td>
+      <td>36583.20</td>
+      <td>37830.17</td>
+      <td>38656.92</td>
+      <td>40396.69</td>
+      <td>42486.34</td>
+      <td>42255.24</td>
+      <td>40895.17</td>
+      <td>39240.65</td>
+      <td>38366.41</td>
+      <td>37446.73</td>
+      <td>36186.83</td>
+      <td>33902.71</td>
+      <td>32459.36</td>
+      <td>31023.35</td>
+      <td>30190.73</td>
+      <td>30055.35</td>
+      <td>30335.29</td>
+      <td>31201.79</td>
+      <td>32775.21</td>
+      <td>36882.21</td>
+      <td>39059.09</td>
+      <td>39295.57</td>
+      <td>39312.61</td>
+      <td>37508.66</td>
+      <td>38124.78</td>
+      <td>39220.21</td>
+      <td>39460.82</td>
+      <td>40532.72</td>
+      <td>42347.17</td>
+      <td>42312.06</td>
+      <td>40834.67</td>
+      <td>39520.36</td>
+      <td>38511.88</td>
+      <td>37607.20</td>
+      <td>36156.08</td>
+    </tr>
+    <tr>
+      <th>2020-11-27</th>
+      <td>33651.81</td>
+      <td>31949.53</td>
+      <td>30832.30</td>
+      <td>29991.21</td>
+      <td>29795.53</td>
+      <td>29951.31</td>
+      <td>30758.76</td>
+      <td>32370.10</td>
+      <td>36386.47</td>
+      <td>39029.49</td>
+      <td>39834.37</td>
+      <td>40475.03</td>
+      <td>38482.23</td>
+      <td>39003.06</td>
+      <td>40727.71</td>
+      <td>40550.85</td>
+      <td>40976.32</td>
+      <td>41854.37</td>
+      <td>41564.30</td>
+      <td>40221.79</td>
+      <td>38875.45</td>
+      <td>37749.83</td>
+      <td>36786.90</td>
+      <td>35102.41</td>
+      <td>33585.86</td>
+      <td>32175.55</td>
+      <td>31064.86</td>
+      <td>30213.43</td>
+      <td>29958.96</td>
+      <td>30234.26</td>
+      <td>31138.64</td>
+      <td>32838.39</td>
+      <td>36634.41</td>
+      <td>38845.22</td>
+      <td>39507.26</td>
+      <td>39896.53</td>
+      <td>38446.53</td>
+      <td>39059.04</td>
+      <td>40148.58</td>
+      <td>40330.14</td>
+      <td>41279.40</td>
+      <td>42837.79</td>
+      <td>42412.80</td>
+      <td>41146.25</td>
+      <td>39591.41</td>
+      <td>38420.42</td>
+      <td>37519.53</td>
+      <td>36160.62</td>
+      <td>33896.52</td>
+      <td>31841.72</td>
+      <td>30897.69</td>
+      <td>30191.20</td>
+      <td>29956.10</td>
+      <td>30199.97</td>
+      <td>31015.63</td>
+      <td>32518.79</td>
+      <td>36129.99</td>
+      <td>37851.53</td>
+      <td>37808.82</td>
+      <td>37668.32</td>
+      <td>35381.81</td>
+      <td>35587.14</td>
+      <td>37205.46</td>
+      <td>37760.66</td>
+      <td>39543.01</td>
+      <td>41895.73</td>
+      <td>42003.77</td>
+      <td>40806.68</td>
+      <td>39426.67</td>
+      <td>38446.22</td>
+      <td>37356.91</td>
+      <td>36119.57</td>
+    </tr>
+    <tr>
+      <th>2020-11-28</th>
+      <td>33697.36</td>
+      <td>31916.72</td>
+      <td>30692.47</td>
+      <td>29828.03</td>
+      <td>29425.40</td>
+      <td>29748.05</td>
+      <td>30186.14</td>
+      <td>30564.89</td>
+      <td>32613.91</td>
+      <td>34058.84</td>
+      <td>34969.54</td>
+      <td>35792.39</td>
+      <td>34480.23</td>
+      <td>35028.71</td>
+      <td>35312.45</td>
+      <td>35408.44</td>
+      <td>36581.59</td>
+      <td>38630.06</td>
+      <td>39379.15</td>
+      <td>38432.76</td>
+      <td>37293.60</td>
+      <td>36304.68</td>
+      <td>35250.20</td>
+      <td>33817.76</td>
+      <td>33902.71</td>
+      <td>32459.36</td>
+      <td>31023.35</td>
+      <td>30190.73</td>
+      <td>30055.35</td>
+      <td>30335.29</td>
+      <td>31201.79</td>
+      <td>32775.21</td>
+      <td>36882.21</td>
+      <td>39059.09</td>
+      <td>39295.57</td>
+      <td>39312.61</td>
+      <td>37508.66</td>
+      <td>38124.78</td>
+      <td>39220.21</td>
+      <td>39460.82</td>
+      <td>40532.72</td>
+      <td>42347.17</td>
+      <td>42312.06</td>
+      <td>40834.67</td>
+      <td>39520.36</td>
+      <td>38511.88</td>
+      <td>37607.20</td>
+      <td>36156.08</td>
+      <td>33935.56</td>
+      <td>31919.44</td>
+      <td>30439.27</td>
+      <td>30020.41</td>
+      <td>29825.63</td>
+      <td>29984.86</td>
+      <td>30444.97</td>
+      <td>31159.67</td>
+      <td>33325.74</td>
+      <td>34868.28</td>
+      <td>35457.72</td>
+      <td>35822.08</td>
+      <td>34607.24</td>
+      <td>34962.65</td>
+      <td>35338.14</td>
+      <td>35645.57</td>
+      <td>36905.20</td>
+      <td>39131.92</td>
+      <td>40203.21</td>
+      <td>39037.18</td>
+      <td>38044.69</td>
+      <td>37128.89</td>
+      <td>36016.67</td>
+      <td>34500.14</td>
+    </tr>
+    <tr>
+      <th>2020-11-29</th>
+      <td>31685.68</td>
+      <td>30105.78</td>
+      <td>28703.45</td>
+      <td>28072.20</td>
+      <td>27651.60</td>
+      <td>27566.19</td>
+      <td>27737.26</td>
+      <td>27439.05</td>
+      <td>26905.24</td>
+      <td>27247.25</td>
+      <td>27974.74</td>
+      <td>28525.59</td>
+      <td>28433.65</td>
+      <td>28962.66</td>
+      <td>29334.07</td>
+      <td>30301.50</td>
+      <td>32108.31</td>
+      <td>34919.68</td>
+      <td>36647.32</td>
+      <td>35999.47</td>
+      <td>35183.37</td>
+      <td>34230.51</td>
+      <td>33602.91</td>
+      <td>32178.03</td>
+      <td>33896.52</td>
+      <td>31841.72</td>
+      <td>30897.69</td>
+      <td>30191.20</td>
+      <td>29956.10</td>
+      <td>30199.97</td>
+      <td>31015.63</td>
+      <td>32518.79</td>
+      <td>36129.99</td>
+      <td>37851.53</td>
+      <td>37808.82</td>
+      <td>37668.32</td>
+      <td>35381.81</td>
+      <td>35587.14</td>
+      <td>37205.46</td>
+      <td>37760.66</td>
+      <td>39543.01</td>
+      <td>41895.73</td>
+      <td>42003.77</td>
+      <td>40806.68</td>
+      <td>39426.67</td>
+      <td>38446.22</td>
+      <td>37356.91</td>
+      <td>36119.57</td>
+      <td>32332.68</td>
+      <td>30410.13</td>
+      <td>29119.33</td>
+      <td>28484.61</td>
+      <td>28150.14</td>
+      <td>28065.44</td>
+      <td>28189.16</td>
+      <td>27883.71</td>
+      <td>27219.84</td>
+      <td>27521.40</td>
+      <td>28332.10</td>
+      <td>29003.50</td>
+      <td>28748.98</td>
+      <td>29081.29</td>
+      <td>29682.72</td>
+      <td>30568.06</td>
+      <td>32342.53</td>
+      <td>35411.15</td>
+      <td>36984.04</td>
+      <td>36310.77</td>
+      <td>35383.08</td>
+      <td>34491.45</td>
+      <td>33698.14</td>
+      <td>32295.74</td>
+    </tr>
+    <tr>
+      <th>2020-11-30</th>
+      <td>30426.00</td>
+      <td>29097.77</td>
+      <td>28176.27</td>
+      <td>27599.20</td>
+      <td>27238.99</td>
+      <td>27754.59</td>
+      <td>28747.47</td>
+      <td>30989.04</td>
+      <td>35068.99</td>
+      <td>36907.37</td>
+      <td>37012.71</td>
+      <td>36950.05</td>
+      <td>35296.28</td>
+      <td>35986.82</td>
+      <td>37089.41</td>
+      <td>37586.08</td>
+      <td>39435.91</td>
+      <td>41569.99</td>
+      <td>41710.94</td>
+      <td>40297.34</td>
+      <td>38951.67</td>
+      <td>37856.67</td>
+      <td>36983.95</td>
+      <td>35594.03</td>
+      <td>33935.56</td>
+      <td>31919.44</td>
+      <td>30439.27</td>
+      <td>30020.41</td>
+      <td>29825.63</td>
+      <td>29984.86</td>
+      <td>30444.97</td>
+      <td>31159.67</td>
+      <td>33325.74</td>
+      <td>34868.28</td>
+      <td>35457.72</td>
+      <td>35822.08</td>
+      <td>34607.24</td>
+      <td>34962.65</td>
+      <td>35338.14</td>
+      <td>35645.57</td>
+      <td>36905.20</td>
+      <td>39131.92</td>
+      <td>40203.21</td>
+      <td>39037.18</td>
+      <td>38044.69</td>
+      <td>37128.89</td>
+      <td>36016.67</td>
+      <td>34500.14</td>
+      <td>30828.40</td>
+      <td>29350.31</td>
+      <td>27689.33</td>
+      <td>27608.55</td>
+      <td>27566.71</td>
+      <td>27897.84</td>
+      <td>28873.20</td>
+      <td>31137.18</td>
+      <td>35801.80</td>
+      <td>38418.47</td>
+      <td>39192.32</td>
+      <td>39662.29</td>
+      <td>37989.93</td>
+      <td>38856.83</td>
+      <td>40062.14</td>
+      <td>40599.60</td>
+      <td>41677.91</td>
+      <td>43043.60</td>
+      <td>42245.38</td>
+      <td>40750.73</td>
+      <td>39294.57</td>
+      <td>38212.74</td>
+      <td>37225.65</td>
+      <td>35775.04</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[68]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">wide_df</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[82]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">wide_train</span> <span class="o">=</span> <span class="n">wide_df</span><span class="p">[</span><span class="n">wide_df</span><span class="p">[</span><span class="s2">&quot;Tarih&quot;</span><span class="p">]</span> <span class="o">&lt;</span> <span class="s2">&quot;2020-11-01&quot;</span><span class="p">]</span>
+<span class="n">wide_train_x</span> <span class="o">=</span> <span class="n">wide_train</span><span class="p">[[</span><span class="s2">&quot;lag_168&quot;</span><span class="p">,</span> <span class="s2">&quot;lag_48&quot;</span><span class="p">]]</span>
+<span class="n">wide_train_y</span> <span class="o">=</span> <span class="n">wide_train</span><span class="p">[</span><span class="s2">&quot;mwh&quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[83]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">wide_test</span> <span class="o">=</span> <span class="n">wide_df</span><span class="p">[</span><span class="n">wide_df</span><span class="p">[</span><span class="s2">&quot;Tarih&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="s2">&quot;2020-11-01&quot;</span><span class="p">]</span>
+<span class="n">wide_test_x</span> <span class="o">=</span> <span class="n">wide_test</span><span class="p">[[</span><span class="s2">&quot;lag_168&quot;</span><span class="p">,</span> <span class="s2">&quot;lag_48&quot;</span><span class="p">]]</span>
+<span class="n">wide_test_y</span> <span class="o">=</span> <span class="n">wide_test</span><span class="p">[</span><span class="s2">&quot;mwh&quot;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[77]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LassoCV</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[102]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">lasso_cv</span> <span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">):</span>
+    <span class="n">model</span> <span class="o">=</span> <span class="n">LassoCV</span><span class="p">(</span><span class="n">cv</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">max_iter</span> <span class="o">=</span> <span class="mi">10000</span><span class="p">,</span> <span class="n">n_jobs</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
+    <span class="n">yy_pred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x_test</span><span class="p">)</span>
+    <span class="n">mape_res</span> <span class="o">=</span> <span class="n">mape</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">yy_pred</span><span class="p">)</span>
+    <span class="n">alpha</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">alpha_</span>
+    <span class="k">return</span> <span class="n">yy_pred</span><span class="p">,</span> <span class="n">mape_res</span><span class="p">,</span> <span class="n">alpha</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[103]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mapes_lasso</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">24</span><span class="p">):</span>
+    <span class="n">tempy_train</span> <span class="o">=</span> <span class="n">wide_train_y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="n">tempx_train</span> <span class="o">=</span> <span class="n">wide_train_x</span>
+    <span class="n">tempy_test</span> <span class="o">=</span> <span class="n">wide_test_y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+    <span class="n">tempx_test</span> <span class="o">=</span> <span class="n">wide_test_x</span>
+    <span class="n">k</span> <span class="o">=</span> <span class="n">lasso_cv</span> <span class="p">(</span><span class="n">tempx_train</span><span class="p">,</span> <span class="n">tempy_train</span><span class="p">,</span> <span class="n">tempx_test</span><span class="p">,</span> <span class="n">tempy_test</span><span class="p">)</span>
+    <span class="n">mapes_lasso</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;------------------------------------------&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hour :&quot;</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hourly Mape:&quot;</span><span class="p">,</span> <span class="n">i</span> <span class="p">,</span> <span class="s2">&quot; = &quot;</span><span class="p">,</span> <span class="n">k</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Choosen Alpha Value :&quot;</span><span class="p">,</span> <span class="n">k</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+    
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>------------------------------------------
+Hour : 0
+Hourly Mape: 0  =  1.3846133780238932
+Choosen Alpha Value : 12431.332717836012
+------------------------------------------
+Hour : 1
+Hourly Mape: 1  =  1.481389413548434
+Choosen Alpha Value : 9632.3610763365
+------------------------------------------
+Hour : 2
+Hourly Mape: 2  =  1.4585815390954726
+Choosen Alpha Value : 9043.351109292304
+------------------------------------------
+Hour : 3
+Hourly Mape: 3  =  1.3412462856253229
+Choosen Alpha Value : 8654.95826046391
+------------------------------------------
+Hour : 4
+Hourly Mape: 4  =  1.3832583640359237
+Choosen Alpha Value : 8411.757499442334
+------------------------------------------
+Hour : 5
+Hourly Mape: 5  =  1.3909375211860535
+Choosen Alpha Value : 8070.515998479513
+------------------------------------------
+Hour : 6
+Hourly Mape: 6  =  1.6965215217321317
+Choosen Alpha Value : 8464.175808579437
+------------------------------------------
+Hour : 7
+Hourly Mape: 7  =  1.904685452544801
+Choosen Alpha Value : 11444.711931105021
+------------------------------------------
+Hour : 8
+Hourly Mape: 8  =  2.5506495714190818
+Choosen Alpha Value : 16293.008867499699
+------------------------------------------
+Hour : 9
+Hourly Mape: 9  =  3.5660978282285245
+Choosen Alpha Value : 18180.535501713264
+------------------------------------------
+Hour : 10
+Hourly Mape: 10  =  4.1563114094968965
+Choosen Alpha Value : 17649.079706206492
+------------------------------------------
+Hour : 11
+Hourly Mape: 11  =  4.353891602454665
+Choosen Alpha Value : 18542.434882190566
+------------------------------------------
+Hour : 12
+Hourly Mape: 12  =  4.558528704416456
+Choosen Alpha Value : 15601.12117974519
+------------------------------------------
+Hour : 13
+Hourly Mape: 13  =  4.431768996138376
+Choosen Alpha Value : 16569.175394335954
+------------------------------------------
+Hour : 14
+Hourly Mape: 14  =  4.281222346481046
+Choosen Alpha Value : 20333.993718257836
+------------------------------------------
+Hour : 15
+Hourly Mape: 15  =  3.8258703744702327
+Choosen Alpha Value : 21734.42806882633
+------------------------------------------
+Hour : 16
+Hourly Mape: 16  =  2.950538525491885
+Choosen Alpha Value : 21435.331038889064
+------------------------------------------
+Hour : 17
+Hourly Mape: 17  =  2.0833809686697813
+Choosen Alpha Value : 18601.250928595313
+------------------------------------------
+Hour : 18
+Hourly Mape: 18  =  1.6209210498705229
+Choosen Alpha Value : 20778.282353121725
+------------------------------------------
+Hour : 19
+Hourly Mape: 19  =  1.5956916613566468
+Choosen Alpha Value : 13696.86136099346
+------------------------------------------
+Hour : 20
+Hourly Mape: 20  =  1.709272497297899
+Choosen Alpha Value : 12637.36905741471
+------------------------------------------
+Hour : 21
+Hourly Mape: 21  =  1.7254122137042547
+Choosen Alpha Value : 16114.085338091456
+------------------------------------------
+Hour : 22
+Hourly Mape: 22  =  1.5560024024345007
+Choosen Alpha Value : 13545.5950665369
+------------------------------------------
+Hour : 23
+Hourly Mape: 23  =  1.8031372597578015
+Choosen Alpha Value : 11446.904368352147
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[111]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">mapes_lasso</span><span class="p">)):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hour&quot;</span><span class="p">,</span> <span class="n">i</span><span class="p">,</span> <span class="s2">&quot;=&quot;</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">mapes_lasso</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="mi">3</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Hour 0 = 1.385
+Hour 1 = 1.481
+Hour 2 = 1.459
+Hour 3 = 1.341
+Hour 4 = 1.383
+Hour 5 = 1.391
+Hour 6 = 1.697
+Hour 7 = 1.905
+Hour 8 = 2.551
+Hour 9 = 3.566
+Hour 10 = 4.156
+Hour 11 = 4.354
+Hour 12 = 4.559
+Hour 13 = 4.432
+Hour 14 = 4.281
+Hour 15 = 3.826
+Hour 16 = 2.951
+Hour 17 = 2.083
+Hour 18 = 1.621
+Hour 19 = 1.596
+Hour 20 = 1.709
+Hour 21 = 1.725
+Hour 22 = 1.556
+Hour 23 = 1.803
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[112]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">statistics</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">mapes_lasso</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[112]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>2.4504137869783587</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[113]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 00:00 - 07:00 average mape value</span>
+<span class="n">statistics</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">mapes_lasso</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">8</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[113]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>1.5051541844740042</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[114]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 08:00 - 17:00 average mape value</span>
+<span class="n">statistics</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">mapes_lasso</span><span class="p">[</span><span class="mi">8</span><span class="p">:</span><span class="mi">16</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[114]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>3.9655426041381596</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[115]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 17:00 - 24:00 average mape value</span>
+<span class="n">statistics</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">mapes_lasso</span><span class="p">[</span><span class="mi">16</span><span class="p">:</span><span class="mi">24</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[115]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>1.8805445723229115</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>MAPE Lag 48 = 7.789  </li>
+<li>MAPE Lag 168 = 3.453  </li>
+<li>MAPE Linear Regression = 4.129</li>
+<li>MAPE Linear Regression(hourly prediction average) = 4.246</li>
+<li>MAPE Lasso Regression with L1 Penalty (hourly prediction average) = 2.450</li>
+<li>MAPE Lasso Regression (00:00 - 07:00 hours)  = 1.505</li>
+<li>MAPE Lasso Regression (08:00 - 17:00 hours)  = 3.965</li>
+<li>MAPE Lasso Regression (17:00 - 24:00 hours)  = 1.880</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Lasso regression model looks like best predictor for this task, its mape value is the lowest one.</p>
 
 </div>
 </div>
