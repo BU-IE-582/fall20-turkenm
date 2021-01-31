@@ -18,4 +18,13 @@
 
  [HW3](files/HW3.html)  
  [Code for HW3](files/HW3.ipynb)  
- 
+
+## Homework 4
+
+ [HW4 - Credit Card Clients](files/hw4_credit_card.html)     
+ [Credit Card Clients Code](files/Credit_Card_Clients.ipynb)  
+ [Credit Card Clients Data File](files/UCI_Credit_Card.csv)    
+    
+ [HW4 - House Pricing](files/hw4_house_price.html)  	
+ [House Pricing Code](files/hw4_house_price.ipynb)  
+ [House Pricing Data File](files/test.csv) 
