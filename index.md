@@ -27,4 +27,8 @@
     
  [HW4 - House Pricing](files/hw4_house_price.html)  	
  [House Pricing Code](files/hw4_house_price.ipynb)  
- [House Pricing Data File](files/test.csv) 
+ [House Pricing Data File](files/test.csv)
+
+ [HW4 - Multiclass Classification](files/hw4_multiclass.html)  	
+ [House Pricing Code](files/hw4_multiclass.ipynb)  
+ [House Pricing Data File](files/data_multiclass.csv)
