@@ -31,4 +31,4 @@
 
  [HW4 - Multiclass Classification](files/hw4_multiclass.html)    	
  [House Pricing Code](files/hw4_multiclass.ipynb)  
- [House Pricing Data File](files/data_multiclass.csv)
+ [House Pricing Data File](files/data_multiclass.csv)  
