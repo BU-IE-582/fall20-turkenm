@@ -29,10 +29,13 @@
  [House Pricing Code](files/hw4_house_price.ipynb)  
  [House Pricing Data File](files/test.csv)
 
- [HW4 - Multiclass Classification](files/hw4_multiclass.html)  	
+ [HW4 - Multiclass Classification](files/hw4_multiclass.html)    	
  [House Pricing Code](files/hw4_multiclass.ipynb)  
  [House Pricing Data File](files/data_multiclass.csv)  
+<<<<<<< HEAD
 
 ## Final Project  
  [Final Project - Report](files/IE_582_Final_Project_Frankenstein.html)  
  [Final Project - Code(files/IE_582_Final_Project_Frankenstein.ipynb)
+=======
+>>>>>>> 3f013a2693bed06ae425a7f12b72ed9117749689
