@@ -36,5 +36,5 @@
 
 ## Final Project  
  [Final Project - Report](files/IE_582_Final_Project_Frankenstein.html)  
- [Final Project - Code(files/IE_582_Final_Project_Frankenstein.ipynb)
+ [Final Project - Code](files/IE_582_Final_Project_Frankenstein.ipynb)
 
